@@ -37,7 +37,7 @@ Instructions on how to run your programs:
   3.Open Chrome Browser and enter the url(hostIpAddress:portNumber/helloworld.html), example: 172.25.52.85:12000/helloworld.html
   4.It will show the pages in helloworld.html in picture 1 in pdf and print "file found, send back" in terminal
   5.Change the helloworld.html to other random address.  172.25.52.85:12000/qwkdqwkd0kdl.html
-  6.It should print 404 error page same as picture 2 in the pdf
+  6.It should print 404 error page same as picture 2 in the pdf and "file not found, send 404" in terminal 
   7.
   
 Webpages that your code successfully works for
