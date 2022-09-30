@@ -38,7 +38,16 @@ Instructions on how to run your programs:
   4.It will show the pages in helloworld.html in picture 1 in pdf and print "file found, send back" in terminal
   5.Change the helloworld.html to other random address.  172.25.52.85:12000/qwkdqwkd0kdl.html
   6.It should print 404 error page same as picture 2 in the pdf and "file not found, send 404" in terminal 
-  7.
+  
+  Part2
+  1.Open proxyserver.py and run
+  2.Terminal will print proxyHostIpAddress, proxyPortNumber,and proxy ready to receive request...
+  3.Open Chrome Browser and enter the url(proxyHostIpAddress:proxyPortNumber/website.html), example: 172.25.52.85:13000/gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html
+  4.It will show the pages in helloworld.html in picture 1 in pdf and print "file found, send back" in terminal
+  5.
+  6.
+  7.If it shows "favicon.ico" in target url and "socket.gaierror: [Errno 11001] getaddrinfo failed", rerun the terminal again
+  8.
   
 Webpages that your code successfully works for
   1.helloworld.html
