@@ -43,11 +43,14 @@ Instructions on how to run your programs:
   1.Open proxyserver.py and run
   2.Terminal will print proxyHostIpAddress, proxyPortNumber,and proxy ready to receive request...
   3.Open Chrome Browser and enter the url(proxyHostIpAddress:proxyPortNumber/website.html), example: 172.25.52.85:13000/gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html
-  4.It will show the pages in helloworld.html in picture 1 in pdf and print "file found, send back" in terminal
-  5.
-  6.
-  7.If it shows "favicon.ico" in target url and "socket.gaierror: [Errno 11001] getaddrinfo failed", rerun the terminal again
-  8.
+  4.It will print target url in the terminal 
+  5.If not cache, terminal will print "H T T P / 1 . 1   2 0 0   O K", "save in cache...", and "send over from webserver"
+  6.Then the folder will get a new html as cache page, browser should display corresponding page
+  7.If cache, terminal will print "found in cache, send from cache" 
+  8.Browser display corresponding page
+  9.If it is not a valid website, then the error page will not be cache and print "not 200 response, no cache"
+  10.If it shows "favicon.ico" in target url and "socket.gaierror: [Errno 11001] getaddrinfo failed", rerun the terminal again
+  
   
 Webpages that your code successfully works for
   1.helloworld.html
