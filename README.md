@@ -1,6 +1,6 @@
 # CSE310HW1 
 Any external libraries used.
-  Part1
+  Part1\r\n
     import socket
     from socket import AF_INET, SOCK_STREAM
     import os
@@ -51,7 +51,6 @@ Instructions on how to run your programs:
   9.If it is not a valid website, then the error page will not be cache and print "not 200 response, no cache"
   10.If it shows "favicon.ico" in target url and "socket.gaierror: [Errno 11001] getaddrinfo failed", rerun the terminal again
   11.The banner in gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file5.html will not display the image because its src doesn't have a full url that tells the browser to where to load the image. This is not in scope of this hw.
-  12.
   
 Webpages that your code successfully works for
   1.helloworld.html
