@@ -19,6 +19,15 @@ Tools:
   Python 3.7.9
   VScode python ide
   
+Picture Order in PDF
+1.Part 1 hello world success
+2.Part 1 error 404 proof
+3.Part 2 test case file 2
+4.Part 2 test case file 3
+5.Part 2 test case file 4
+6.Part 2 test case file 5
+7.Cache data proof
+
 Instructions on how to run your programs:
   -kill terminal before run a terminal to test it
   -after run one url, the terminal will kill itself,  please run terminal again if need to test next terminal
@@ -30,6 +39,7 @@ Instructions on how to run your programs:
   5.Change the helloworld.html to other random address.  172.25.52.85:12000/qwkdqwkd0kdl.html
   6.It should print 404 error page same as picture 2 in the pdf
   7.
+  
 Webpages that your code successfully works for
   1.helloworld.html
   2.gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html
